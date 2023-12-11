@@ -1,3 +1,5 @@
+# O Custo de Performance de Usar Regex para Remover Formatação de Strings
+
 Por vezes temos a tarefa de receber dados de entrada mas devemos usá-lo de uma forma diferente no nosso sistema, por exemplo removendo formatações que não fazem sentido nos mundos do nosso código ou banco de dados, tais como:
 
 - A string "R$ 1.450,00" para "1450.00"
