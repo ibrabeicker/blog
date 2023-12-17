@@ -14,8 +14,8 @@ P {{ $frontmatter.categories }} {{ $frontmatter.pages }}
 
 
 [An1]({{ './' + $frontmatter.pages[0].link }})
-[An2](./big-selects)
-[An3]({{ './big-selects' }}){{ '[An4](./big-selects)' }}
+[An2](src/big-selects.md)
+[An3]({{ './big-selects' }}){{ '[An4](src/big-selects.md)' }}
 
 <script setup>
 import CreatedLink from './components/CreatedLink.vue'

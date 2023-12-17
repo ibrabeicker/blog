@@ -39,5 +39,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/ibrabeicker' },
       { icon: 'youtube', link: 'https://youtube.com/ibrabeicker' },
     ]
-  }
+  },
+
+  srcDir: 'src'
 })
